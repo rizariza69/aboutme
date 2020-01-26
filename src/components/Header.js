@@ -2,6 +2,10 @@ import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import styled from "styled-components";
 import ParticlesBg from "particles-bg";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faChevronCircleDown } from '@fortawesome/free-solid-svg-icons'
+
+
 
 const Header = () => {
   const WrapNavbar = styled.div`
@@ -12,21 +16,19 @@ const Header = () => {
   const BannerWrap = styled.div`
     display: flex;
     flex-direction: column;
-    margin: 5px;
+    margin-top: 5px;
     color: black;
     font-weight: 5px;
     justify-content: row;
     align-items: center;
     align-content: center;
     align-self: center;
+  
   `;
-  const Container = styled.div`
-   background: url('../assets/images/background.jpg');
-  `;
-
+  
   return (
-    <div id="home" style={{ backgroundImage: "url('../assets/images/background.jpg')"}}>
-      {/* <ParticlesBg type="circle" bg={true} /> */}
+    <div id="home" >
+      <ParticlesBg type="circle" bg={true} />
       <header
         style={{
           height: "100vh",
@@ -71,6 +73,7 @@ const Header = () => {
                   textAlign: "center",
                   color: "white",
                   fontSize: "70px",
+                  fontFamily:'Roboto'
                 }}
               >
                 Im Muhammad Riza
@@ -88,6 +91,9 @@ const Header = () => {
             </div>
           </div>
         </BannerWrap>
+        <a href="#about" style={{position:"absolute", bottom:"20px"}}>
+        <FontAwesomeIcon icon={faChevronCircleDown}  style={{fontSize:"60px", color:"white"}}      />
+        </a>
       </header>
     </div>
   );
