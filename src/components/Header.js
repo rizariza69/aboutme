@@ -27,7 +27,16 @@ const Header = () => {
   return (
     <Container id="home">
       <ParticlesBg type="circle" bg={true} />
-      <Navbar expand="lg" style={{ justifyContent: "center" }} bg-transparent>
+      <header
+        style={{
+          height: "100vh",
+          display: "flex",
+          flexDirection:"column",
+          justifyContent: "center",
+          alignItems: "center"
+        }}
+      >
+         <Navbar expand="lg" style={{ justifyContent: "center", position:"absolute", top:"0" }} bg-transparent>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <WrapNavbar>
           <Navbar.Collapse id="basic-navbar-nav">
@@ -40,14 +49,6 @@ const Header = () => {
           </Navbar.Collapse>
         </WrapNavbar>
       </Navbar>
-      <header
-        style={{
-          height: "92vh",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center"
-        }}
-      >
         <BannerWrap>
           <div
             style={{
@@ -60,8 +61,8 @@ const Header = () => {
               className="container"
               style={{
                 justifyContent: "center",
-                width: "75%",
-                padding: "5rem",
+                width: "80%",
+                padding: "4rem",
                 marginBottom: "50px"
               }}
             >
@@ -69,7 +70,7 @@ const Header = () => {
                 style={{
                   textAlign: "center",
                   color: "white",
-                  fontSize: "80px"
+                  fontSize: "70px",
                 }}
               >
                 Im Muhammad Riza
