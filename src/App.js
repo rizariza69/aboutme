@@ -1,17 +1,17 @@
-import React from "react";
+import React, { Fragment } from "react";
 import Header from "../src/components/Header";
 import About from "../src/components/About";
+import Footer from "../src/components/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
-    <div>
+    <Fragment>
       <Header />
-      <div class="container">
-        <About />
-        <h1>HOLLLAAAa</h1>
-      </div>
-    </div>
+      <About />
+      <div class="container"></div>
+      <Footer />
+    </Fragment>
   );
 }
 
