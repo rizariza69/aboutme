@@ -25,8 +25,8 @@ const Header = () => {
   `;
 
   return (
-    <Container id="home">
-      <ParticlesBg type="circle" bg={true} />
+    <div id="home" style={{ backgroundImage: "url('../assets/images/background.jpg')"}}>
+      {/* <ParticlesBg type="circle" bg={true} /> */}
       <header
         style={{
           height: "100vh",
@@ -89,7 +89,7 @@ const Header = () => {
           </div>
         </BannerWrap>
       </header>
-    </Container>
+    </div>
   );
 };
 
