@@ -1,14 +1,15 @@
 import React from "react";
 import styled from "styled-components";
+import Avatar from "../assets/images/avatar.png"
 
 const About = () => {
   return (
-    <div id="about" style={{ height: "100vh", backgroundColor: "black"}}>
+    <div id="about" style={{ backgroundColor: "black"}}>
       <div className="container">
         <h1 style={{ color: "white" }}>About</h1>
         <div className="row">
           <div className="col-md-4">
-            <img src="#" alt="Lights" style={{ width: "100%" }} />
+            <img src={Avatar} alt="Lights" style={{ width: "100%" }} />
           </div>
           <div className="col-md-8">
             <p style={{ color: " white", textAlign:"justify" }}>
