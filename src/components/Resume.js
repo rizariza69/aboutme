@@ -51,31 +51,31 @@ const Resume = () => {
           </div>
           <div className="col-md-8">
             <ul style={{ "list-style": "none", paddingInlineStart:"0", marginBottom:"20px" }}>
-              <li>
+              <li style={{marginBottom: "20px"}}>
                 <div>
                   <h4>Javascript</h4>
                   <ProgressBar animated now={70} label={`70%`} />
                 </div>
               </li>
-              <li>
+              <li style={{marginBottom: "20px"}}>
                 <div>
                   <h4>ReactJS</h4>
                   <ProgressBar animated now={80} label={`80%`} />
                 </div>
               </li>
-              <li>
+              <li style={{marginBottom: "20px"}}>
                 <div>
                   <h4>CSS</h4>
                   <ProgressBar animated now={60} label={`60%`} />
                 </div>
               </li>
-              <li>
+              <li style={{marginBottom: "20px"}}>
                 <div>
                   <h4>HTML</h4>
                   <ProgressBar animated now={70} label={`70%`} />
                 </div>
               </li>
-              <li>
+              <li style={{marginBottom: "20px"}}>
                 <div>
                   <h4>Express</h4>
                   <ProgressBar animated now={70} label={`70%`} />
@@ -87,13 +87,13 @@ const Resume = () => {
                   <ProgressBar animated now={60} label={`60%`} />
                 </div>
               </li>
-              <li>
+              <li style={{marginBottom: "20px"}}>
                 <div>
                   <h4>MongoDB</h4>
                   <ProgressBar animated now={60} label={`60%`} />
                 </div>
               </li>
-              <li>
+              <li style={{marginBottom: "20px"}}>
                 <div>
                   <h4>Mongoose</h4>
                   <ProgressBar animated now={60} label={`60%`} />
