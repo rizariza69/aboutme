@@ -2,6 +2,8 @@ import React from "react";
 import Thumbpoll from "../assets/images/thumbpoll-logo.png";
 import Task from "../assets/images/todo.png";
 import Health from "../assets/images/health.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronCircleUp } from "@fortawesome/free-solid-svg-icons";
 
 const Porto = () => {
   return (
@@ -10,7 +12,7 @@ const Porto = () => {
       style={{
         backgroundColor: "#e8e8e8",
         paddingTop: "90px",
-        paddingBottom: "60px",
+        paddingBottom: "20px",
         paddingRight: "30px",
         paddingLeft: "30px"
       }}
@@ -84,6 +86,17 @@ const Porto = () => {
             </a>
           </div>
         </div>
+      </div>
+      <div
+        className="text-center"
+        style={{ marginTop: "100px", paddingTop: "30px" }}
+      >
+        <a href="#home" style={{ marginTop: "50px" }}>
+          <FontAwesomeIcon
+            icon={faChevronCircleUp}
+            style={{ fontSize: "60px", color: "#2B2B2B" }}
+          />
+        </a>
       </div>
     </div>
   );
