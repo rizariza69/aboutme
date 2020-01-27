@@ -13,6 +13,7 @@ const Resume = () => {
   return (
     <div
       id="resume"
+      className="center"
       style={{
         marginTop: "40px",
         marginBottom: "40px",

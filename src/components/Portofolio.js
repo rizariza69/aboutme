@@ -9,6 +9,7 @@ const Porto = () => {
   return (
     <div
       id="porto"
+      className="center"
       style={{
         backgroundColor: "#e8e8e8",
         paddingTop: "90px",

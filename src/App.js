@@ -5,6 +5,7 @@ import Footer from "../src/components/Footer";
 import Resume from "../src/components/Resume";
 import Portofolio from "../src/components/Portofolio";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./index.css";
 
 function App() {
   return (

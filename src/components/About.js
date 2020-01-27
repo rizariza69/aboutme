@@ -5,10 +5,10 @@ import Avatar from "../assets/images/avatar.png";
 const About = () => {
   return (
     <div id="about" style={{ backgroundColor: "#2B2B2B" }}>
-      <div className="container">
+      <div className="container center">
         <div
           className="row"
-          style={{ padding: "20px", paddingBottom: "50px", paddingTop: "50px" }}
+          style={{ paddingBottom: "50px", paddingTop: "50px" }}
         >
           <div className="col-md-4">
             <img

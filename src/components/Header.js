@@ -25,9 +25,9 @@ const Header = () => {
   `;
 
   return (
-    <Container fluid id="home">
+    <Container fluid id="home" className="text-center">
       <Row md={12}>
-        <Col md={12}>
+        <Col md={12} style={{ background: "rgba(0,0,0,0.3)" }}>
           <ParticlesBg type="circle" bg={true} />
           <header
             style={{
@@ -42,7 +42,6 @@ const Header = () => {
               <Navbar
                 expand="lg"
                 style={{
-                  justifyContent: "space-between",
                   position: "absolute",
                   top: "0",
                   width: "100%",
@@ -87,49 +86,39 @@ const Header = () => {
               </Navbar>
             </div>
             <BannerWrap>
-              <Col xs>
-                <Row>
-                  <div
-                    style={{
-                      display: "flex",
-                      justifyContent: "center",
-                      alignItems: "center"
-                    }}
-                  >
-                    <div
-                      className="container"
-                      style={{
-                        justifyContent: "center",
-                        width: "80%",
-                        padding: "4rem",
-                        marginBottom: "50px"
-                      }}
-                    >
-                      <h1
-                        style={{
-                          textAlign: "center",
-                          color: "white",
-                          fontSize: "80px",
-                          fontFamily: "Open Sans"
-                        }}
-                      >
-                        <strong>Im Muhammad Riza</strong>
-                      </h1>
-                      <h4
-                        style={{
-                          textAlign: "center",
-                          color: "white",
-                          fontFamily: "PT Sans,sans-serif"
-                        }}
-                      >
-                        I am a Software Engineer and I am enthusiastic about
-                        web-based application technologists and mobile-based
-                        application technologists{" "}
-                      </h4>
-                    </div>
-                  </div>
-                </Row>
-              </Col>
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  marginBottom: "50px"
+                }}
+              >
+                <h1
+                  style={{
+                    textAlign: "center",
+                    color: "white",
+                    fontSize: "7.5vh",
+                    fontFamily: "Open Sans"
+                  }}
+                >
+                  <strong>Im Muhammad Riza</strong>
+                </h1>
+                <h4
+                  style={{
+                    textAlign: "center",
+                    color: "white",
+                    fontFamily: "PT Sans,sans-serif",
+                    width: "75vw",
+                    marginTop: "5vh"
+                  }}
+                >
+                  I am a Software Engineer and I am enthusiastic about web-based
+                  application technologists and mobile-based application
+                  technologists{" "}
+                </h4>
+              </div>
             </BannerWrap>
             <a href="#about" style={{ position: "absolute", bottom: "20px" }}>
               <FontAwesomeIcon
