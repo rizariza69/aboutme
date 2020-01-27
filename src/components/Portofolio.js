@@ -7,7 +7,6 @@ const Porto = () => {
   return (
     <div
       id="porto"
-      className="row"
       style={{
         backgroundColor: "#e8e8e8",
         paddingTop: "90px",
@@ -16,40 +15,53 @@ const Porto = () => {
         paddingLeft: "30px"
       }}
     >
-      <div className="col-md-4">
-        <div className="text-center">
-          <a href="/thumbpoll.co">
-            <img
-              src={Thumbpoll}
-              alt="thumbpoll.co"
-              style={{ width: "80%", marginBottom: "50px" }}
-            />
-          </a>
-          <h4>Thumbpoll</h4>
+      <h3
+        className="text-center"
+        style={{
+          marginBottom: "60px",
+          color: "#95A3A3",
+          fontSize: "15px",
+          fontFamily: "Open Sans"
+        }}
+      >
+        <strong>CHECK OUT MY PORTOFOLIO</strong>
+      </h3>
+      <div className="row">
+        <div className="col-md-4">
+          <div className="text-center">
+            <a href="/thumbpoll.co">
+              <img
+                src={Thumbpoll}
+                alt="thumbpoll.co"
+                style={{ width: "80%", marginBottom: "50px" }}
+              />
+              <h4>Thumbpoll</h4>
+            </a>
+          </div>
         </div>
-      </div>
-      <div className="col-md-4">
-        <div className="text-center">
-          <a href="https://rz-simple-task.netlify.com/">
-            <img
-              src={Task}
-              alt="task-simple"
-              style={{ width: "56%", marginBottom: "12px" }}
-            />
-          </a>
-          <h4>Simple Task</h4>
+        <div className="col-md-4">
+          <div className="text-center">
+            <a href="https://rz-simple-task.netlify.com/">
+              <img
+                src={Task}
+                alt="task-simple"
+                style={{ width: "56%", marginBottom: "12px" }}
+              />
+              <h4>Simple Task</h4>
+            </a>
+          </div>
         </div>
-      </div>
-      <div className="col-md-4">
-        <div className="text-center">
-          <a href="https://riza-project-body-mass-index.netlify.com/">
-            <img
-              src={Health}
-              alt="body-mass-weight"
-              style={{ width: "60%", marginBottom: "35px" }}
-            />
-          </a>
-          <h4>Body Mass Index</h4>
+        <div className="col-md-4">
+          <div className="text-center">
+            <a href="https://riza-project-body-mass-index.netlify.com/">
+              <img
+                src={Health}
+                alt="body-mass-weight"
+                style={{ width: "60%", marginBottom: "35px" }}
+              />
+              <h4>Body Mass Index</h4>
+            </a>
+          </div>
         </div>
       </div>
     </div>
