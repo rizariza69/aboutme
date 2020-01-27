@@ -132,24 +132,50 @@ const Resume = () => {
                 fontFamily: "Open Sans, sans-serif"
               }}
             >
-              WORK
+              <b>WORK</b>
             </h5>
           </div>
           <div className="col-md-8">
-            <h3>ManyOption</h3>
-            <p style={{ lineHeight: "30px" }}>
+            <h3 style={{ fontFamily: "Open Sans, sans-serif" }}>
+              <b>ManyOption</b>
+            </h3>
+            <p
+              style={{
+                lineHeight: "30px",
+                fontFamily: "Open Sans, sans-serif"
+              }}
+            >
               {" "}
-              Backcend Software Engineer .September 2019 - January 2020
+              <i>Backcend Software Engineer .September 2019 - January 2020</i>
             </p>
-            <p style={{ textAlign: "justify", lineHeight: "30px" }}>
+            <p
+              style={{
+                textAlign: "justify",
+                lineHeight: "30px",
+                fontFamily: "Opens Sans, sans-serif"
+              }}
+            >
               Create Rest API use Node.JS, MongoDB, Yoman Express, my last
               project create 45 Rest API for download Excell (use exceljs){" "}
             </p>
-            <h3>Weplay</h3>
-            <p style={{ lineHeight: "30px" }}>
-              React Native Software Engineer. July - August 2019
+            <h3 style={{ fontFamily: "Open Sans, sans-serif" }}>
+              <b>Weplay</b>
+            </h3>
+            <p
+              style={{
+                lineHeight: "30px",
+                fontFamily: "Open Sans, sans-serif"
+              }}
+            >
+              <i>React Native Software Engineer. July - August 2019</i>
             </p>
-            <p style={{ textAlign: "justify", lineHeight: "30px" }}>
+            <p
+              style={{
+                textAlign: "justify",
+                lineHeight: "30px",
+                fontFamily: "Open Sans, sans-serif"
+              }}
+            >
               in this Company using IGINTE Boilerplate, last project i create a
               few components and fixed bugging{" "}
             </p>
@@ -168,10 +194,11 @@ const Resume = () => {
               style={{
                 borderBottom: "3px solid #179038",
                 paddingBottom: "6px",
-                width: "17%"
+                width: "17%",
+                fontFamily: "Open Sans, sans-serif"
               }}
             >
-              SKILL
+              <b>SKILL</b>
             </h5>
           </div>
           <div className="col-md-8">
@@ -184,7 +211,9 @@ const Resume = () => {
             >
               <li style={{ marginBottom: "20px" }}>
                 <div>
-                  <h4>Javascript</h4>
+                  <h4 style={{ fontFamily: "Open Sans, sans-serif" }}>
+                    <b>Javascript</b>
+                  </h4>
                   <ProgressBar
                     animated
                     now={70}
@@ -195,7 +224,9 @@ const Resume = () => {
               </li>
               <li style={{ marginBottom: "20px" }}>
                 <div>
-                  <h4>ReactJS</h4>
+                  <h4 style={{ fontFamily: "Open Sans, sans-serif" }}>
+                    <b>ReactJS</b>
+                  </h4>
                   <ProgressBar
                     animated
                     now={80}
@@ -206,7 +237,9 @@ const Resume = () => {
               </li>
               <li style={{ marginBottom: "20px" }}>
                 <div>
-                  <h4>CSS</h4>
+                  <h4 style={{ fontFamily: "Open Sans, sans-serif" }}>
+                    <b>CSS</b>
+                  </h4>
                   <ProgressBar
                     animated
                     now={70}
@@ -217,7 +250,9 @@ const Resume = () => {
               </li>
               <li style={{ marginBottom: "20px" }}>
                 <div>
-                  <h4>HTML</h4>
+                  <h4 style={{ fontFamily: "Open Sans, sans-serif" }}>
+                    <b>HTML</b>
+                  </h4>
                   <ProgressBar
                     animated
                     now={70}
@@ -228,7 +263,9 @@ const Resume = () => {
               </li>
               <li style={{ marginBottom: "20px" }}>
                 <div>
-                  <h4>Express</h4>
+                  <h4 style={{ fontFamily: "Open Sans, sans-serif" }}>
+                    <b>Express</b>
+                  </h4>
                   <ProgressBar
                     animated
                     now={70}
@@ -239,7 +276,9 @@ const Resume = () => {
               </li>
               <li style={{ marginBottom: "20px" }}>
                 <div>
-                  <h4>Sequelize</h4>
+                  <h4 style={{ fontFamily: "Open Sans, sans-serif" }}>
+                    <b>Sequelize</b>
+                  </h4>
                   <ProgressBar
                     animated
                     now={60}
@@ -250,7 +289,9 @@ const Resume = () => {
               </li>
               <li style={{ marginBottom: "20px" }}>
                 <div>
-                  <h4>MongoDB</h4>
+                  <h4 style={{ fontFamily: "Open Sans, sans-serif" }}>
+                    <b>MongoDB</b>
+                  </h4>
                   <ProgressBar
                     animated
                     now={60}
@@ -261,7 +302,9 @@ const Resume = () => {
               </li>
               <li style={{ marginBottom: "20px" }}>
                 <div>
-                  <h4>Mongoose</h4>
+                  <h4 style={{ fontFamily: "Open Sans, sans-serif" }}>
+                    <b>Mongoose</b>
+                  </h4>
                   <ProgressBar
                     animated
                     now={60}
