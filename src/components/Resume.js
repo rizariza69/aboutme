@@ -33,38 +33,82 @@ const Resume = () => {
               style={{
                 borderBottom: "3px solid #179038",
                 paddingBottom: "6px",
-                width: "33%"
+                width: "33%",
+                fontFamily: "Open Sans, sans-serif"
               }}
             >
-              EDUCATION
+              <strong>EDUCATION</strong>
             </h5>
           </div>
           <div className="col-md-8">
-            <h3>Impactbyte Coding Boothcamp - Fullstack Web Developer</h3>
-            <p style={{ lineHeight: "30px" }}>Graduated. March - Mei 2019</p>
-            <p style={{ textAlign: "justify", lineHeight: "30px" }}>
+            <h3 style={{ fontFamily: "Open Sans, sans-serif" }}>
+              <strong>
+                Impactbyte Coding Boothcamp - Fullstack Web Developer
+              </strong>
+            </h3>
+            <p
+              style={{
+                lineHeight: "30px",
+                fontFamily: "Open Sans, sans-serif"
+              }}
+            >
+              <i>Graduated. March - Mei 2019</i>
+            </p>
+            <p
+              style={{
+                textAlign: "justify",
+                lineHeight: "30px",
+                fontFamily: "Open Sans, sans-serif"
+              }}
+            >
               Learn about coding from Logic Javascript and about Frontend web
               development (Figma UI and UX, HTML, CSS, Object Oriented
               Programming (OOP), React and Redux, netlify) and backend web
               development (Express, Mongoose, MongoDB, mySQL, Sequelize,
               Rest-API Herokku).
             </p>
-            <h3>Hacktiv8 Coding Boothcamp - Fullstack Web Developer</h3>
-            <p style={{ lineHeight: "30px" }}>
-              Until Phase 2. January - August 2018
+            <h3 style={{ fontFamily: "Open Sans, sans-serif" }}>
+              <b>Hacktiv8 Coding Boothcamp - Fullstack Web Developer</b>
+            </h3>
+            <p
+              style={{
+                lineHeight: "30px",
+                fontFamily: "Open Sans, sans-serif"
+              }}
+            >
+              <i>Until Phase 2. January - August 2018</i>
             </p>
-            <p style={{ textAlign: "justify", lineHeight: "30px" }}>
+            <p
+              style={{
+                textAlign: "justify",
+                lineHeight: "30px",
+                fontFamily: "Open Sans, sans-serif"
+              }}
+            >
               Learn about coding from Logic Javascript and about Frontend web
               development (Figma UI and UX, HTML, CSS, Object Oriented
               Programming (OOP), React and Redux, netlify) and backend web
               development (Express, Mongoose, MongoDB, mySQL, Sequelize,
               Rest-API Herokku).{" "}
             </p>
-            <h3>Master of Business Administration</h3>
-            <p style={{ lineHeight: "30px" }}>
-              Masters in Entrepreunersip. 2013-2015
+            <h3 style={{ fontFamily: "Open Sans, sans-serif" }}>
+              <b>Master of Business Administration</b>
+            </h3>
+            <p
+              style={{
+                lineHeight: "30px",
+                fontFamily: "Open Sans, sans-serif"
+              }}
+            >
+              <i>Masters in Entrepreunersip. 2013-2015</i>
             </p>
-            <p style={{ textAlign: "justify", lineHeight: "30px" }}>
+            <p
+              style={{
+                textAlign: "justify",
+                lineHeight: "30px",
+                fontFamily: "Open Sans, sans-serif"
+              }}
+            >
               Learn about Entrepreunership and Marketing. to know about
               strategic business, market research and etc{" "}
             </p>
@@ -84,7 +128,8 @@ const Resume = () => {
               style={{
                 borderBottom: "3px solid #179038",
                 paddingBottom: "6px",
-                width: "18%"
+                width: "18%",
+                fontFamily: "Open Sans, sans-serif"
               }}
             >
               WORK
