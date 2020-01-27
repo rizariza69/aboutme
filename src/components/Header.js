@@ -25,7 +25,7 @@ const Header = () => {
   `;
 
   return (
-    <Container fluid>
+    <Container fluid id="home">
       <Row md={12}>
         <Col md={12}>
           <ParticlesBg type="circle" bg={true} />
