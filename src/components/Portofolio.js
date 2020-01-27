@@ -35,7 +35,14 @@ const Porto = () => {
                 alt="thumbpoll.co"
                 style={{ width: "80%", marginBottom: "50px" }}
               />
-              <h4>Thumbpoll</h4>
+              <h4
+                style={{
+                  fontFamily: "Open Sans, sans-serif",
+                  color: "#7A7A7A"
+                }}
+              >
+                <b>POLLING WEB</b>
+              </h4>
             </a>
           </div>
         </div>
@@ -47,7 +54,14 @@ const Porto = () => {
                 alt="task-simple"
                 style={{ width: "56%", marginBottom: "12px" }}
               />
-              <h4>Simple Task</h4>
+              <h4
+                style={{
+                  fontFamily: "Open Sans, sans-serif",
+                  color: "#7A7A7A"
+                }}
+              >
+                <b>SIMPLE TASK</b>
+              </h4>
             </a>
           </div>
         </div>
@@ -59,7 +73,14 @@ const Porto = () => {
                 alt="body-mass-weight"
                 style={{ width: "60%", marginBottom: "35px" }}
               />
-              <h4>Body Mass Index</h4>
+              <h4
+                style={{
+                  fontFamily: "Open Sans, sans-serif",
+                  color: "#7A7A7A"
+                }}
+              >
+                <b>SIMPLE BODY MASS INDEX</b>
+              </h4>
             </a>
           </div>
         </div>
