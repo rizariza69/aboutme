@@ -79,7 +79,7 @@ const Header = () => {
                         href="#porto"
                         style={{ fontFamily: "Open Sans", color: "white" }}
                       >
-                        PORTOFOLIO
+                        <strong>PORTOFOLIO</strong>
                       </Nav.Link>
                     </Nav>
                   </Navbar.Collapse>
