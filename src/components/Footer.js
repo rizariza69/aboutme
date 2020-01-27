@@ -21,7 +21,7 @@ const Footer = () => {
             <FontAwesomeIcon
               icon={faGithub}
               style={{
-                fontSize: "45px",
+                fontSize: "30px",
                 color: "#e8e8e8",
                 marginRight: "20px",
                 marginLeft: "20px"
@@ -32,7 +32,7 @@ const Footer = () => {
             <FontAwesomeIcon
               icon={faLinkedin}
               style={{
-                fontSize: "45px",
+                fontSize: "30px",
                 color: "#e8e8e8",
                 marginRight: "20px",
                 marginLeft: "20px"
