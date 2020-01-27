@@ -216,6 +216,7 @@ const Resume = () => {
                   </h4>
                   <ProgressBar
                     animated
+                    variant="success"
                     now={70}
                     label={`70%`}
                     style={{ height: "30px" }}
@@ -229,6 +230,7 @@ const Resume = () => {
                   </h4>
                   <ProgressBar
                     animated
+                    variant="success"
                     now={80}
                     label={`80%`}
                     style={{ height: "30px" }}
@@ -242,6 +244,7 @@ const Resume = () => {
                   </h4>
                   <ProgressBar
                     animated
+                    variant="success"
                     now={70}
                     label={`70%`}
                     style={{ height: "30px" }}
@@ -255,6 +258,7 @@ const Resume = () => {
                   </h4>
                   <ProgressBar
                     animated
+                    variant="success"
                     now={70}
                     label={`70%`}
                     style={{ height: "30px" }}
@@ -268,6 +272,7 @@ const Resume = () => {
                   </h4>
                   <ProgressBar
                     animated
+                    variant="success"
                     now={70}
                     label={`70%`}
                     style={{ height: "30px" }}
@@ -281,6 +286,7 @@ const Resume = () => {
                   </h4>
                   <ProgressBar
                     animated
+                    variant="success"
                     now={60}
                     label={`60%`}
                     style={{ height: "30px" }}
@@ -294,6 +300,7 @@ const Resume = () => {
                   </h4>
                   <ProgressBar
                     animated
+                    variant="success"
                     now={60}
                     label={`60%`}
                     style={{ height: "30px" }}
@@ -307,6 +314,7 @@ const Resume = () => {
                   </h4>
                   <ProgressBar
                     animated
+                    variant="success"
                     now={60}
                     label={`60%`}
                     style={{ height: "30px" }}
