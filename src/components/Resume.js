@@ -11,14 +11,21 @@ const Resume = () => {
     margin-bottom: 30px;
   `;
   return (
-    <div id="resume" style={{ marginBottom: "40px", backgroundColor: "white" }}>
+    <div
+      id="resume"
+      style={{
+        marginTop: "40px",
+        marginBottom: "40px",
+        backgroundColor: "white"
+      }}
+    >
       <resumeWrap>
         <div
           className="row"
           style={{
             marginTop: "30px",
             paddingBottom: "30px",
-            borderBottom: "solid 2px #e8e8e8"
+            borderBottom: "solid 5px #e8e8e8"
           }}
         >
           <div className="col-md-4">
@@ -26,7 +33,7 @@ const Resume = () => {
               style={{
                 borderBottom: "3px solid #179038",
                 paddingBottom: "6px",
-                width: "40%"
+                width: "33%"
               }}
             >
               EDUCATION
@@ -69,7 +76,7 @@ const Resume = () => {
           style={{
             marginTop: "30px",
             paddingBottom: "30px",
-            borderBottom: "solid 2px #e8e8e8"
+            borderBottom: "solid 5px #e8e8e8"
           }}
         >
           <div className="col-md-4">
@@ -77,21 +84,26 @@ const Resume = () => {
               style={{
                 borderBottom: "3px solid #179038",
                 paddingBottom: "6px",
-                width: "22%"
+                width: "18%"
               }}
             >
               WORK
             </h5>
           </div>
           <div className="col-md-8">
-            <h3>Backcend Software Engineer - ManyOption</h3>
-            <p style={{ lineHeight: "30px" }}> September 2019 - January 2020</p>
+            <h3>ManyOption</h3>
+            <p style={{ lineHeight: "30px" }}>
+              {" "}
+              Backcend Software Engineer .September 2019 - January 2020
+            </p>
             <p style={{ textAlign: "justify", lineHeight: "30px" }}>
               Create Rest API use Node.JS, MongoDB, Yoman Express, my last
               project create 45 Rest API for download Excell (use exceljs){" "}
             </p>
-            <h3>React Native Software Engineer - Weplay</h3>
-            <p style={{ lineHeight: "30px" }}> July - August 2019</p>
+            <h3>Weplay</h3>
+            <p style={{ lineHeight: "30px" }}>
+              React Native Software Engineer. July - August 2019
+            </p>
             <p style={{ textAlign: "justify", lineHeight: "30px" }}>
               in this Company using IGINTE Boilerplate, last project i create a
               few components and fixed bugging{" "}
@@ -111,7 +123,7 @@ const Resume = () => {
               style={{
                 borderBottom: "3px solid #179038",
                 paddingBottom: "6px",
-                width: "22%"
+                width: "17%"
               }}
             >
               SKILL
