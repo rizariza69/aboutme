@@ -65,7 +65,7 @@ const Resume = () => {
               development (Figma UI and UX, HTML, CSS, Object Oriented
               Programming (OOP), React and Redux, netlify) and backend web
               development (Express, Mongoose, MongoDB, mySQL, Sequelize,
-              Rest-API Herokku).
+              Rest-API,Herokku).
             </p>
             <h3 style={{ fontFamily: "Open Sans, sans-serif" }}>
               <b>Hacktiv8 Coding Boothcamp - Fullstack Web Developer</b>
@@ -86,10 +86,9 @@ const Resume = () => {
               }}
             >
               Learn about coding from Logic Javascript and about Frontend web
-              development (Figma UI and UX, HTML, CSS, Object Oriented
-              Programming (OOP), React and Redux, netlify) and backend web
-              development (Express, Mongoose, MongoDB, mySQL, Sequelize,
-              Rest-API Herokku).{" "}
+              development (HTML, CSS, Object Oriented Programming (OOP), VueJS
+              and VueX) and backend web development (Express, Mongoose, MongoDB,
+              mySQL, Sequelize, postgres, sqlite3, Rest-API.{" "}
             </p>
             <h3 style={{ fontFamily: "Open Sans, sans-serif" }}>
               <b>Master of Business Administration</b>
